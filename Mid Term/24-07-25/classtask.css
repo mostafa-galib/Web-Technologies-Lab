@@ -1,1 +1,12 @@
 
+body{
+    background-color: rgb(166, 59, 59);
+}
+
+#main_header{
+    text-align: center;
+}
+
+#dobb {
+    margin-left: 100px;
+}
