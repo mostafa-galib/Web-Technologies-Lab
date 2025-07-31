@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<head>
+  <title>My Button Actions</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 30px;
+    }
+    h1 {
+      font-size: 40px;
+    }
+    button {
+      margin: 10px;
+      padding: 10px 20px;
+      font-size: 16px;
+      background: linear-gradient(to right, rgba(246, 64, 64, 0.771), rgb(246, 239, 27));
+      color: rgb(0, 0, 0);
+    }
+    #output {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Click The Buttons To See Magic</h1>
+
+  <div>
+    <button onclick="showImage()">Show Image</button>
+    <button onclick="showParagraph()">Show Paragraph</button>
+    <button onclick="changeColor()">Change Background Color</button>
+    <button onclick="showAlert()">Show Alert</button>
+    <button onclick="clearOutput()">Clear Output</button>
+    <button onclick="videoplay()">Play Video</button>
+  </div>
+
+  <div id="output"></div>
+
+  <script src="task.js"></script>
+</body>
+</html>
+
